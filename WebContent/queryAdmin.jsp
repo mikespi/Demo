@@ -19,18 +19,21 @@
 	</style>	
 </head>
 <body>
-	<center><h1><u>Login Here</u></h1></center>
+	<center><h1><u>Search</u></h1></center>
 	<center>
 		<div>
-			<form action="login" method="POST">
+			<form action="query" method="POST">
 				<table>
 					<tr>
-						<td>Username</td>
-						<td><input type="text" class="form-control" name="username" placeholder="Username"></td>
+						<td>First Name</td>
+						<td><input type="text" class="form-control" name="firstName" placeholder="First Name"></td>
 					</tr>
 					<tr>
-						<td>Password</td>
-						<td><input type="text" class="form-control" name="password" placeholder="Password"></td>
+						<td>Last Name</td>
+						<td><input type="text" class="form-control" name="lastName" placeholder="Last Name"></td>
+					</tr>
+					<tr>
+						<td><a style="color:#000000" href="resultAdminAll.jsp" >* Select All Users Here * </a><td>
 					</tr>
 					<tr>
 						<td colspan="2" style="text-align: center"><input class="btn btn-success" name="button" type="submit" value="Submit"></td>
@@ -38,7 +41,6 @@
 				</table>
 			</form>
 		</div>
-		<p> Need an <a href="register.jsp">account? </a><p>
 	</center>
 </body>
 </html>
